@@ -26,6 +26,12 @@
 
 ---
 
+## 页面预览
+
+<img src="figs/example.png" width="900" height="500" alt="MiPlan 页面预览">
+
+---
+
 ## 安装方式
 
 ### 推荐：从 GitHub Releases 下载
