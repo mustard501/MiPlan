@@ -34,27 +34,6 @@
 2. 在最新版本中找到 **Windows 安装程序**（例如 `MiPlan_x.x.x_x64-setup.exe`）。  
 3. 下载后运行安装包，按向导完成安装。
 
-**发布页直达（请把下面链接改成你的仓库）：**
-
-```text
-https://github.com/<你的用户名>/<仓库名>/releases/latest
-```
-
-安装包体积较大，**不要** 将 `.exe` / `.msi` 直接提交进 Git 仓库；请始终通过 **Releases 附件** 分发。
-
-### 自行从源码构建（可选）
-
-需安装 Node.js、Rust、以及 Tauri 所需系统依赖，在项目根目录执行：
-
-```bash
-npm install
-npm run tauri:build
-```
-
-安装包通常位于：`src-tauri/target/release/bundle/`（例如 `nsis/` 下的 `*-setup.exe`）。
-
----
-
 ## 数据与隐私
 
 - 待办、标签、个性设置等默认仅保存在 **本机**（桌面版为 SQLite + 少量本地配置；网页预览为浏览器 `localStorage`）。  
@@ -64,11 +43,7 @@ npm run tauri:build
 
 ## 版本与反馈
 
-- 版本号见各发布标签或应用内「关于」（若已添加）。  
-- 问题与建议可通过仓库 **Issues**（若启用）或你指定的联系方式反馈。
 
----
 
 ## 许可证
 
-若仓库为私有且未选择开源许可证，则默认 **保留所有权利**；他人无权复制、分发源码 unless 你另行授权。
